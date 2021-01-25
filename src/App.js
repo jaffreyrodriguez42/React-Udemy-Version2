@@ -3,11 +3,13 @@ import './App.css';
 
 function App() {
 	const name = "Jaff";
-	const num = 7;
+	
+	const d = new Date();
+	const year = d.getFullYear();
   return (
   	<div>
-  		<h1>Hello {name}.</h1>
-		<p>Your lucky number is {num}.</p>
+  		<p>Created by {name}.</p>
+		<p>Copyright {year}.</p>
   	</div>
     
   );
