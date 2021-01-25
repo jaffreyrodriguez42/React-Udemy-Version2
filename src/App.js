@@ -2,14 +2,12 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+	const name = "Jaff";
+	const num = 7;
   return (
   	<div>
-  		<h1>My Favorite Food</h1>
-  		<ul>
-  			<li>Bacon</li>
-  			<li>Pizza</li>
-  			<li>Cake</li>
-  		</ul>
+  		<h1>Hello {name}.</h1>
+		<p>Your lucky number is {num}.</p>
   	</div>
     
   );
