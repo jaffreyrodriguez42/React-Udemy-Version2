@@ -3,7 +3,15 @@ import './App.css';
 
 function App() {
   return (
-    <h1>Hello World!!</h1>
+  	<div>
+  		<h1>My Favorite Food</h1>
+  		<ul>
+  			<li>Bacon</li>
+  			<li>Pizza</li>
+  			<li>Cake</li>
+  		</ul>
+  	</div>
+    
   );
 }
 
